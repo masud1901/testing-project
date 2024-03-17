@@ -12,8 +12,9 @@ public class ChromeDriverClass {
 
 		WebDriver driver = new ChromeDriver();
 
-		String baseURLString = "http://www.daraz.com.bd";
+		String baseURLString = "https://www.letskodeit.com/practice";
 		driver.get(baseURLString);
+
 	}
 
 }
